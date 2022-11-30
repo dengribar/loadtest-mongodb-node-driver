@@ -1,0 +1,21 @@
+{
+  "name": "loadtest-mongodb-node-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "loadtest1": "npm i --no-save mongodb@4.11.0 && sleep 15 && node index.js 4.11.0",
+    "loadtest2": "npm i --no-save mongodb@4.12.1 && sleep 15 && node index.js 4.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengribar/loadtest-mongodb-node-driver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengribar/loadtest-mongodb-node-driver/issues"
+  },
+  "homepage": "https://github.com/dengribar/loadtest-mongodb-node-driver#readme",
+  "dependencies": {}
+}
